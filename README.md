@@ -1,6 +1,6 @@
-﻿# MasterSis - Sistema de Gestão para Academias
+﻿# MasterSys - Sistema de Gestão para Academias
 
-O **MasterSis** é uma API REST desenvolvida para a modernização e gestão de academias de artes marciais. O projeto
+O **MasterSys** é uma API REST desenvolvida para a modernização e gestão de academias de artes marciais. O projeto
 consiste na migração de um sistema legado desktop para uma arquitetura moderna, escalável e pronta para ambientes
 dockerizados ou deploy em nuvem.
 
@@ -47,4 +47,4 @@ O núcleo deste projeto é a aplicação prática de conceitos avançados de des
 
 1. Clone o repositório:
    ```bash
-   git clone [git remote add origin https://github.com/PedroSchetino/mastersis.git]
+   git clone [git remote add origin https://github.com/PedroSchetino/MasterSys.git]
