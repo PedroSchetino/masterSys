@@ -177,4 +177,7 @@ public class Aluno {
     public void setAtualizadoEm(LocalDateTime atualizadoEm) {
         this.atualizadoEm = atualizadoEm;
     }
+
+    public void setCep(String cep) {
+    }
 }
