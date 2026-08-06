@@ -1,0 +1,1 @@
+ALTER TABLE modalidades ADD COLUMN ativo BOOLEAN NOT NULL DEFAULT true;
