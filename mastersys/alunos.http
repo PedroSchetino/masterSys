@@ -1,0 +1,57 @@
+@baseUrl = http://localhost:8080
+
+### Cadastrar aluno
+POST {{baseUrl}}/alunos
+content-type: application/json
+
+{
+  "nome": "João da Silva",
+  "dataNascimento": "1995-05-15",
+  "sexo": "m",
+  "telefone": "4833334444",
+  "celular": "48998533333",
+  "email": "joao.silva@email.com",
+  "observacao": "Aluno transferido no início do semestre",
+  "endereco": "Rua das Flores",
+  "numero": "120",
+  "complemento": "Apto 302",
+  "bairro": "Centro",
+  "cep": "88010-000",
+  "cidade": "Florianópolis",
+  "estado": "SC"
+}
+
+### Listar Alunos
+GET {{baseUrl}}/alunos
+
+### Listar alunos com paginação
+GET {{baseUrl}}/alunos?page=0&size=10&sort=nome,asc
+
+### Buscar aluno por ID
+
+GET {{baseUrl}}/alunos/1
+
+### Atualizar Aluno
+
+PUT {{baseUrl}}/aluno/1
+content-type: application/json
+
+{
+  "nome": "João da Silva atualizado",
+  "dataNascimento": "1995-05-15",
+  "sexo": "m",
+  "telefone": "4833334444",
+  "celular": "48998533333",
+  "email": "joao.silva@email.com",
+  "observacao": "Aluno transferido no início do semestre",
+  "endereco": "Rua das Flores",
+  "numero": "120",
+  "complemento": "Apto 302",
+  "bairro": "Centro",
+  "cep": "88010-000",
+  "cidade": "Florianópolis",
+  "estado": "SC"
+}
+
+### Excluir Aluno
+DELETE {{baseUrl}}/alunos/1
