@@ -1,8 +1,8 @@
-package dev.matheuslf.mastersys.controller;
+package dev.pedroskm.mastersys.controller;
 
-import dev.matheuslf.mastersys.dto.AlunoRequest;
-import dev.matheuslf.mastersys.dto.AlunoResponse;
-import dev.matheuslf.mastersys.service.AlunoService;
+import dev.pedroskm.mastersys.dto.AlunoRequest;
+import dev.pedroskm.mastersys.dto.AlunoResponse;
+import dev.pedroskm.mastersys.service.AlunoService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
@@ -39,9 +39,9 @@ public class AlunoController {
         return alunoService.atualizar(id, alunoRequest);
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void excluir(Long id) {
+    public void excluir(@PathVariable Long id) {
         alunoService.excluir(id);
     }
 

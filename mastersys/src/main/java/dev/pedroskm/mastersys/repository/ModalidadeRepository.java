@@ -1,6 +1,6 @@
-package dev.matheuslf.mastersys.repository;
+package dev.pedroskm.mastersys.repository;
 
-import dev.matheuslf.mastersys.domain.Modalidade;
+import dev.pedroskm.mastersys.domain.Modalidade;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ModalidadeRepository extends JpaRepository<Modalidade, Long> {

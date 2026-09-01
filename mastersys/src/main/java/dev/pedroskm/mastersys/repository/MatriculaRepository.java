@@ -1,6 +1,6 @@
-package dev.matheuslf.mastersys.repository;
+package dev.pedroskm.mastersys.repository;
 
-import dev.matheuslf.mastersys.domain.Matricula;
+import dev.pedroskm.mastersys.domain.Matricula;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface MatriculaRepository extends JpaRepository<Matricula, Long> {

@@ -1,9 +1,9 @@
-package dev.matheuslf.mastersys.service;
+package dev.pedroskm.mastersys.service;
 
-import dev.matheuslf.mastersys.domain.Aluno;
-import dev.matheuslf.mastersys.dto.AlunoRequest;
-import dev.matheuslf.mastersys.dto.AlunoResponse;
-import dev.matheuslf.mastersys.repository.AlunoRepository;
+import dev.pedroskm.mastersys.domain.Aluno;
+import dev.pedroskm.mastersys.dto.AlunoRequest;
+import dev.pedroskm.mastersys.dto.AlunoResponse;
+import dev.pedroskm.mastersys.repository.AlunoRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
-package dev.matheuslf.mastersys.repository;
+package dev.pedroskm.mastersys.repository;
 
-import dev.matheuslf.mastersys.domain.Plano;
+import dev.pedroskm.mastersys.domain.Plano;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PlanoRepository extends JpaRepository<Plano, Long> {

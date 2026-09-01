@@ -1,4 +1,4 @@
-package dev.matheuslf.mastersys.domain.enums;
+package dev.pedroskm.mastersys.domain.enums;
 
 public enum StatusMatricula {
     ATIVA,

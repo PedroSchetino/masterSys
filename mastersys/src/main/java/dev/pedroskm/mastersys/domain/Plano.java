@@ -1,4 +1,4 @@
-package dev.matheuslf.mastersys.domain;
+package dev.pedroskm.mastersys.domain;
 
 import jakarta.persistence.*;
 

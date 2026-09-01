@@ -1,6 +1,6 @@
-package dev.matheuslf.mastersys.domain;
+package dev.pedroskm.mastersys.domain;
 
-import dev.matheuslf.mastersys.domain.enums.StatusMatricula;
+import dev.pedroskm.mastersys.domain.enums.StatusMatricula;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
