@@ -1,13 +1,13 @@
-package dev.matheuslf.mastersys.dto;
+package dev.pedroskm.mastersys.dto;
 
-import dev.matheuslf.mastersys.domain.Aluno;
+import dev.pedroskm.mastersys.domain.Aluno;
 
 import java.time.LocalDateTime;
 
 public record AlunoResponse(
         Long id,
         String nome,
-        String data_nascimento,
+        String dataNascimento,
         String sexo,
         String celular,
         String email,
@@ -19,7 +19,8 @@ public record AlunoResponse(
         return new AlunoResponse(
                 aluno.getId(),
                 aluno.getNome(),
-                aluno.getDataNascimento().toString(),
+                // aluno.getDataNascimento().toString(),
+                aluno.getDataNascimento() != null ? aluno.getDataNascimento().toString() : null,
                 aluno.getSexo(),
                 aluno.getCelular(),
                 aluno.getEmail(),

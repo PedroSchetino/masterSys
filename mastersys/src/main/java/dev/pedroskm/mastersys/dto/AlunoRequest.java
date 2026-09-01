@@ -1,13 +1,13 @@
-package dev.matheuslf.mastersys.dto;
+package dev.pedroskm.mastersys.dto;
 
-import dev.matheuslf.mastersys.domain.Aluno;
+import dev.pedroskm.mastersys.domain.Aluno;
 
 import java.time.LocalDate;
 
 //dto: dado imutável para evitar expor dados sensíveis no front
 public record AlunoRequest(
         String nome,
-        LocalDate data_nascimento,
+        LocalDate dataNascimento,
         String sexo,
         String telefone,
         String celular,
@@ -29,7 +29,7 @@ public record AlunoRequest(
 
     public void preencher(Aluno aluno) {
         aluno.setNome(nome);
-        aluno.setDataNascimento(data_nascimento);
+        aluno.setDataNascimento(dataNascimento);
         aluno.setSexo(sexo);
         aluno.setTelefone(telefone);
         aluno.setCelular(celular);
